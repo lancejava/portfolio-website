@@ -10,7 +10,7 @@ export const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className= 'fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' > 
+    <div className= 'fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' style={{zIndex:1}} > 
         <div>
             <img src={Logo} alt='Logo Image' style={{width:'50px'}}/>
         </div>
@@ -52,19 +52,19 @@ export const Navbar = () => {
         <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600' >
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://www.linkedin.com/in/lancejavaluyas/">
                     Linkedin <FaLinkedin size={30} />
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]' >
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://github.com/lancejava">
                     Github <FaGithub size={30} />
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#B22222]' >
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://mail.google.com/mail/u/0/#inbox">
                     Email <HiOutlineMail size={30} />
                 </a>
             </li>
