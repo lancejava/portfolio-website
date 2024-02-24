@@ -3,10 +3,10 @@ import ReactImg from '../assets/react.png'
 
 const Work = () => {
   return (
-    <div name='work' className='bg-[#0a192f] w-full md:h-screen text-gray-300 py-200px'>
+    <div name='work' className='bg-[#0F0E11] w-full md:h-screen text-gray-300 py-200px'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#600000]'>Work</p>
+            <div className='pb-8 text-center'>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#2B2D35]'>Work</p>
                 <p className='py-6'>// Check out some of my recent work</p>
             </div>
             {/* Container */}
