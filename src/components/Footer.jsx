@@ -9,13 +9,13 @@ import {Link} from 'react-scroll'
 function Footer() {
   return (
     <footer className="text-white py-4 bg-[#0F0E11] ">
-      <div className="w-full container mx-auto md:flex items-center justify-between px-4">
+      <div className="w-full container mx-auto md:flex items-start justify-between px-4">
         <div className='py-2 flex flex-col px-4 justify-center items-center'>
           <p className='text-center font-bold'>Location</p>
           <div className='flex flex-row '>
             <a className='flex justify-between items-center w-full text-gray-300'>      
               <BsFillGeoFill className="mr" size={25} />
-              <span className="px-2">Chesapeake, VA</span>
+              <span className="px-2 pt-3">Chesapeake, VA</span>
             </a>
           </div>
         </div>
@@ -32,7 +32,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className='flex py-2 flex-col px-4 justify-center items-center'>
+        <div className='flex py-2 pt-6 flex-col px-4 justify-center items-center'>
           <ul className=' flex flex-row'>
             <li className='flex items-center' >
                 <a className='flex justify-between items-center w-full text-gray-300'
@@ -54,7 +54,7 @@ function Footer() {
             </li>
             <li className='flex items-center' >
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                href="https://www.linkedin.com/in/lancejavaluyas/details/featured/">
                     <BsFillPersonLinesFill size={30} />
                 </a>
             </li>

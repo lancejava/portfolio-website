@@ -18,11 +18,7 @@ export const About = () =>
                     </div>  
                     <div>
                         <p>
-                                I am passionate about building excellent software that improves
-                                the lives of those around me. I specialize in creating software 
-                                for clients ranging from individuals and small-businesses all the
-                                way to large enterprise corporations. What would you do if you had 
-                                a software expert available at your fingertips?
+                        I love building software that makes a positive impact on people's lives. My focus is on creating software for individuals and small businesses. I enjoy exploring new technologies and working with people from diverse backgrounds.
                         </p>
                     </div>          
                 </div>
